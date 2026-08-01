@@ -721,7 +721,255 @@ const script: message[] = [
     text: "Siraris: Mister Hacermida and friends... I see you have made your way to my office… BEGONE.",
     choices: ["Actually Die"]
   },
- 
+  {
+    chosen: "Continue",
+    from: "Ichiro",
+    text: "Ichiro: Why dont we just kill him already so I can finally sleep and stop watching these dumb mushrooms.",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga waga (That doesnt sound tactically sound, we should form a triangle defense around him and surround him instead).",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: Hey shut up, or well get caught. Kim, you take the lead. I'll handle these bozos. ",
+    choices: ["Continue"]
+  },
+ {
+    chosen: "Continue",
+    from: "narration",
+    text: "Taking this chance, you decide to…",
+    choices: ["Ambush.", "Take out your massive +3 Elven-Silver Vorpal Flametongue Greatsword of Giant Slaying"]
+  },
+
+  {
+    chosen: "Take out your massive +3 Elven-Silver Vorpal Flametongue Greatsword of Giant Slaying",
+    from: "narration",
+    text: "You must not have been playing the same game as us you do not have a massive +3 Elven-Silver Vorpal Flametongue Greatsword of Giant Slaying. Even if you did, you arent proficient.",
+    choices: ["Continue"]
+  },
+
+
+
+  {
+     chosen: "Continue",
+    from: "Rawyen",
+    text: "This isnt DND, Kim.",
+    choices: ["Continue"]
+  },
+  {
+     chosen: "Continue",
+    from: "Hans",
+    text: "Those are your last words???",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "narration",
+    text: "This stroke of confusion has stunned you for long enough, that you have been spotted. The Triclops grabs you by the forearm, lifts you into the air, and slams your entire body into your partymates. In the impact, your partys bones crackle and break some protruding and piercing your body, killing you. Game Over ",
+    choices: []
+   },
+
+{
+     chosen: "Ambush.",
+    from: "narrator",
+    text: "You hide under his bed and plot a surprise attack. He does not notice you slip inside. In his raging, depth-blind confusion, he starts upturning the furniture, starting with the cabinet, then the desk, then…",
+    choices: ["Continue"]
+  },
+
+{
+     chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: DAMN NICE SHOT KIM I DIDNT KNOW YOU HAD IN YOU",
+    choices: ["Continue"]
+  },
+  {
+     chosen: "Continue",
+    from: "Renz",
+    text: "Renz: You chose the right option",
+    choices: ["Continue"]
+  },
+
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "Your moment arrives! The Triclops approaches the glass door shambling clumsily left and right, bleeding out of his middle eye.",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: You better not fuck this up or Ill be the one to kill you",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Rawyen",
+    text: "Rawyen: The boss is at 1 hp its time to strike him down!",
+    choices: ["Continue"]
+  },
+ {
+    chosen: "Continue",
+    from: "narrator",
+    text: "A moment of opportunity presents itself. You…",
+    choices: ["Strike!", "Hesitate."]
+  },
+
+ {
+    chosen: "Strike!",
+    from: "Hans",
+    text: "Hans: Hey arent we forgetting something",
+    choices: ["Continue"]
+  },
+
+   {
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: Ohh shoot we did!",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga! (The Dragon's Essense!)",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "You drive your weapon straight through his heart. The beast falls over, seemingly lifeless before you… the way is clear, the fight quick and decisive, leaving you feeling somewhat… unnerved. As you turn your back to it, its eyes open once more bloodshot but beating with passion. With a dying vigor it raises its arms, slamming onto your party! Game Over.",
+    choices: []
+  },
+
+  {
+    chosen: "Hesitate.",
+    from: "narrator",
+    text: "almost… as you realize you forgot to coat your weapon in the dragons essence you acquired. You coat your weapon in the dragons essence leaving it with a golden gleam.",
+    choices: ["Continue"]
+
+  },
+{
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: Thank God, he remembered.",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Hans",
+    text: "Hans: That was close.",
+    choices: ["Continue"]
+  },
+{
+    chosen: "Continue",
+    from: "narrator",
+    text: "He draws near limping as his middle eye bleeds a fiery red. You clutch your weapon, imbued with the might of dragons. Strangely, as if your weapon itself called to you to spur your determination, you know that there is no better time than now to deliver the perfect strike. ",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Renz",
+    text: "Renz: This is it Kim, the time to strike do not hesitate",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Ichiro",
+    text: "Ichiro: GO MAH NIGGAH!!!",
+    choices: ["Continue"]
+  }, 
+  {
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: Are we allowed to say that? Nvm, just get his fucking ass Kim",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga~(Omg wow)",
+    choices: ["Continue"]
+  },
+{
+    chosen: "Continue",
+    from: "Rawyen",
+    text: "Rawyen: LETS FUCKING GOOO KAYA MO NAAAAAAAA!!!!",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Hans",
+    text: "Hans: LETS GO KIM!!",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "You jump over his body and wrestle his hands away from his head, which have been clutching his eyes closed. You then raise your weapon on high, then with fervor and determination, stab it straight into the shut eyelids that protect the most vulnerable link of this otherwise unkillable beast. Through the skin, it stabs right into the middle of the glowing iris.",
+    choices: ["Continue"]
+  },
+{
+    chosen: "Continue",
+    from: "narrator",
+    text: "Your friends all frantically cover their ears as a pained scream booms through the whole lair. The dragon essence shimmers brightly and surrounds both you and the Triclops, before imploding at a critical point in the dead center of the head of the Triclops. You see the light leave his eyes, with no more blood being drawn. He falls over limp, and you emerge… victorious."
+    ,choices: ["Continue"]
+  },
+     {
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: You did it!",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Hans",
+    text: "Hans: We did it!",
+    choices: ["Continue"]
+  }, 
+  {
+    chosen: "Continue",
+    from: "Ichiro",
+    text: "Ichiro: Finally!",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga!!! (I am so happy about this information!!!",
+    choices: ["Continue"]
+  },
+{
+    chosen: "Continue",
+    from: "Hans",
+    text: "Hans: We work so well together as a team.",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: Yeah. Its like were becoming one unit.",
+    choices: ["Continue"]
+  },
+{
+    chosen: "Continue",
+    from: "Rawyen",
+    text: "Rawyen: Some kind of proto- work unit….",
+    choices: ["Say that again.."]
+},
+{
+    chosen: "Say that again..",
+    from: "user",
+    text: "... say that again?",
+    choices: ["Ending."]
+},
+
+
+
+
 
 
 
@@ -729,7 +977,7 @@ const script: message[] = [
  {
     chosen: "Actually Die",
     from: "narrator",
-    text: "He waves his hand, and a beam of green light exits from his middle eye, hitting your party directly. You all disintegrate into ash, starting from your skin, then your fat, then your muscle, then your bones. The process is agonizingly slow, taking a total of 4 minutes to complete. The magic of the beam rendered your party immobile, yet conscious, for the entirety of the duration.",
+    text: "He waves his hand, and a beam of green light exits from his middle eye, hitting your party directly. You all disintegrate into ash, starting from your skin, then your fat, then your muscle, then your bones. The process is agonizingly slow, taking a total of 4 minutes to complete. The magic of the beam rendered your party immobile, yet conscious, for the entirety of the duration. Game Over",
     choices: []
   },
    {
