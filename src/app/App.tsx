@@ -1,12 +1,13 @@
-import React from 'react';
-import Board from '../components/Board';
+import React from "react";
+import { Outlet } from "react-router-dom";
+
 
 function App() {
-    return (
-        <div className="h-screen mx-auto flex flex-col justify-center items-center bg-black text-white">
-            <Board />
-        </div>
-    )
-};
+  return (
+    <>
+      <Outlet/>
+    </>
+  );
+}
 
 export default App;

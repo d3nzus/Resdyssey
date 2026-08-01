@@ -771,7 +771,7 @@ const script: message[] = [
     chosen: "Continue",
     from: "narration",
     text: "This stroke of confusion has stunned you for long enough, that you have been spotted. The Triclops grabs you by the forearm, lifts you into the air, and slams your entire body into your partymates. In the impact, your partys bones crackle and break some protruding and piercing your body, killing you. Game Over ",
-    choices: []
+    choices: ["RESTART"]
    },
 
 {
@@ -842,7 +842,7 @@ const script: message[] = [
     chosen: "Continue",
     from: "narrator",
     text: "You drive your weapon straight through his heart. The beast falls over, seemingly lifeless before you… the way is clear, the fight quick and decisive, leaving you feeling somewhat… unnerved. As you turn your back to it, its eyes open once more bloodshot but beating with passion. With a dying vigor it raises its arms, slamming onto your party! Game Over.",
-    choices: []
+    choices: ["RESTART"]
   },
 
   {
@@ -978,37 +978,37 @@ const script: message[] = [
     chosen: "Actually Die",
     from: "narrator",
     text: "He waves his hand, and a beam of green light exits from his middle eye, hitting your party directly. You all disintegrate into ash, starting from your skin, then your fat, then your muscle, then your bones. The process is agonizingly slow, taking a total of 4 minutes to complete. The magic of the beam rendered your party immobile, yet conscious, for the entirety of the duration. Game Over",
-    choices: []
+    choices: ["RESTART"]
   },
    {
     chosen: "Get Trollenzo-ed",
     from: "Enzo",
     text: "Trollenzo: HAH! SALA! WEH WEH!",
-    choices: [ "Continue" ],
+    choices: ["Continue"],
   },
 {
     chosen: "Continue",
     from: "narrator",
     text: "Trollenzo collapses time and space around you, trapping you in an endlessly shifting quantum environment. The very gluons holding you apart melt into soup. You become one with the universe. Game Over.",
-    choices: []
+    choices: ["RESTART"]
   },
  {
     chosen: "Get Shena-ed",
     from: "narrator",
     text: "Mamshena floods your mind with all that there is to know and to be known. You are burnt to a crisp by limitless divine knowledge. Game Over.",
-    choices: [],
+    choices: ["RESTART"],
   },
     {
     chosen: "Get Caught",
     from: "narrator",
     text: "You get caught by the guards and forced to work in the lab again. Game Over.",
-    choices: [],
+    choices: ["RESTART"],
   },
   {
     chosen: "Die From a Concussion",
     from: "narrator",
     text: "You are suddenly hit by a painful migraine. It seems your injury was fatal. Game Over.",
-    choices: [],
+    choices: ["RESTART"],
   },
 ];
 
@@ -1017,6 +1017,20 @@ function notifyListeners() {
 }
 
 function progressScript(choice?: string) {
+  if (choice === "Ending.") {
+    if (typeof window !== "undefined") {
+      window.location.assign("/ending");
+    }
+    return;
+  }
+
+  if (choice === "RESTART") {
+    if (typeof window !== "undefined") {
+      window.location.reload();
+    }
+    return;
+  }
+
   const currentEntry = script[currentMessageIndex];
   const nextEntry = script[currentMessageIndex + 1];
 
