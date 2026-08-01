@@ -220,7 +220,7 @@ const script: message[] = [
   {
     chosen: "Continue",
     from: "Mamshena",
-    text: "Mamshena:  The only way to slay tje triclops is with the essence of a dragon. In these desolate lands the only place it may reside is in the realm where the heads of researchers are put to rest. Are you ready to take on this quest?", 
+    text: "Mamshena:  The only way to slay the triclops is with the essence of a dragon. In these desolate lands the only place it may reside is in the realm where the heads of researchers are put to rest. Are you ready to take on this quest?", 
     choices: ["Yes.", "No."],
   },
   {
@@ -234,6 +234,12 @@ const script: message[] = [
     from: "user",
     text: "Boi, you think I'm playing.", 
     choices: ["Get Shena-ed"],
+  },
+   {
+    chosen: "Continue",
+    from: "narrator",
+    text: "You accept. Mamshena tells you where to go and leaves.", 
+    choices: ["Continue"],
   },
   {
     chosen: "Continue",
@@ -313,9 +319,431 @@ const script: message[] = [
     text: "Siraris: Puny creatures! Hades awaits you, for you were unlucky enough to stumble upon me! Now, despair!",
     choices: ["Continue"],
   },
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "In a moment, powerful hands grasp all three of you. You struggle to escape, but its no use. Your world begins to grow dark as the crushing grip around you tightens even more…",
+    choices: ["Continue"],
+  },
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "Suddenly, you awaken. Cavernous walls hang high above you. The air is hot and dry, with the faint scent of fungus. Various items lay scattered about, and quiet silhouettes of other people huddle in the shadows. A sign above reads...",
+    choices: ["Continue"],
+  },
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "OFFICE OF THE RESEARCH UNIT HEAD",
+    choices: ["Continue"],
+  },
+  {
+    chosen: "Continue",
+    from: "Hans",
+    text: "Hans: Hey you! Youre finally awak-",
+    choices: ["I know."],
+  },
+   {
+    chosen: "I know.",
+    from: "user",
+    text: "Yeah, yeah, I know, ow my head…",
+    choices: ["Continue"],
+  },
+  {
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: Damn. Were in Siraris lair. We need to find a way to escape.",
+    choices: ["Approach the strangers."],
+  },
+  {
+    chosen: "Approach the strangers.",
+    from: "user",
+    text: "Imma talk to those guys.",
+    choices: ["Continue"]
+  },
 
 
 
+
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "Theres a lot of guys here, who do you wanna talk to?",
+    choices: ["Guy in a green jacket", "Guy hunched over"]
+  },
+
+  {
+    chosen: "Guy in a green jacket",
+    from: "Renz",
+    text: "Renz: Hi Kim.",
+    choices: ["Hi Renz."]
+  },
+  {
+    chosen: "Hi Renz.",
+    from: "user",
+    text: "Oh. Hi Renz. Anything you wanna tell me?",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Renz",
+    text: "Renz: Yeah, I took a peek at the code of this game. You're supposed to talk to the WU03 members to progress.",
+    choices: ["Thanks."]
+  },
+   {
+    chosen: "Thanks.",
+    from: "user",
+    text: "Woah. Thanks, Renz.",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Renz",
+    text: "Renz: Glad to Help. Royen's right there.",
+    choices: ["Guy hunched over"]
+  },
+
+   {
+    chosen: "Guy hunched over",
+    from: "Rawyen",
+    text: "Rawyen: Hello!",
+    choices: ["Hi Rawyen."]
+  },
+  {
+    chosen: "Hi Rawyen.",
+    from: "user",
+    text: "Its Rawyen!",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Rawyen",
+    text: "Rawyen: Woe is you, traveller! So you have been captured by the dreadful triclops Siraris. My companions and I too suffered this fate. Now we do nothing but dry mushrooms under UV light 24/7 for his entertainment.",
+    choices: ["How do we escape?"]
+  },
+   {
+    chosen: "How do we escape?",
+    from: "user",
+    text: "How do we escape?.",
+    choices: ["Continue"]
+  }, 
+  {
+    chosen: "Continue",
+    from: "Rawyen",
+    text: "Rawyen: The only way is to slay him! Alas, I know no manmade weapon capable of such a feat. But, I do know this: his weak point is the third eye on his forehead!",
+    choices: ["Okay."]
+  },
+  {
+    chosen: "Okay.",
+    from: "user",
+    text: "Okay. Noted with thanks.",
+    choices: ["Continue"]
+  }, 
+  {
+    chosen: "Continue",
+    from: "Rawyen",
+    text: "Rawyen: While youre here, try conversing with the others in my group.",
+    choices: ["Guy with a telescope", "Guy with headphones"]
+  },
+
+  {
+    chosen: "Guy with a telescope",
+    from: "Ichiro",
+    text: "Ichiro: *Yawn* Hello… fellow traveller…",
+    choices: ["Hi Ichiro."]
+  },
+  {
+    chosen: "Hi Ichiro.",
+    from: "user",
+    text: "Hi Ichi.. Are you okay?",
+    choices: ["Continue"]
+  }, 
+   {
+    chosen: "Continue",
+    from: "Ichiro",
+    text: "Ichiro: Im not allowed to sleep. I must watch over these mushrooms. Truly, the world is cruel.",
+    choices: ["Can I help?"]
+  },
+   {
+    chosen: "Can I help?",
+    from: "user",
+    text: "Is there a way we can help you?",
+    choices: ["Continue"]
+  }, 
+  {
+    chosen: "Continue",
+    from: "Ichiro",
+    text: "Ichiro: Slaying Siraris is the way! They say the poison of the Dragon Fruits peels is the only thing strong enough to kill him. There is one within the Ramzen Fields in this labyrinth, but getting there is next to impossible…",
+    choices: ["Oh, right"]
+  },
+   {
+    chosen: "Oh, right",
+    from: "user",
+    text: "Thats right! Mamshena said something about slaying the triclops with the essence of a dragon",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Ichiro",
+    text: "Ichiro: We are counting on you. Try talking to my friend over there, he might have something useful to say.",
+    choices: ["Guy with headphones"]
+  },
+
+  { chosen: "Guy with headphones",
+    from: "Sean",
+    text: "Sean: waga waga",
+    choices: ["Hi Sean."]
+  },
+  { chosen: "Hi Sean.",
+    from: "user",
+    text: "Waga waga to you too, Sean. Do you know any way to escape Siraris?",
+    choices: ["Continue"]
+  },
+{ chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga waga waga. (He must be slain first, and only then can we escape. A poison crafted from the Dragon Fruit should do the trick.)",
+    choices: ["Continue"]
+  },
+  { chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga waga waga. Waga waga waga waga. (But Siraris is not foolish enough to eat the fruit. The poison must be extracted somehow, then administered through injection.)",
+    choices: ["Continue"]
+  },
+  { chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga waga waga waga. (His body is impervious to harm, but there must be a weak spot somewhere…)",
+    choices: ["Thanks."]
+  },
+  {
+    chosen: "Thanks.",
+    from: "user",
+    text: "Woah. Thanks, Sean.",
+    choices: ["Continue"]
+  },
+
+
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "With the guidance of your new allies, you navigate the labyrinth around Siraris lair until you find it: a barren stretch of land where all plant life has shrivelled up. Only a single cactus plant rises from the dirt, shining as if all the life in this place had been pooled into it. Hanging from a fleshy leaf is a single spiky fruit. The Dragon Fruit…",
+    choices: ["Grab it."]
+  },
+   {
+    chosen: "Grab it.",
+    from: "user",
+    text: "Everyone stand back. Im going to grab it.",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Enzo",
+    text: "???: NOT SO FAST! NGYAHAHAH",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "Suddenly, a strange troll appears behind the plant, scrambling onto the top.",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Enzo",
+    text: "Trollenzo: I am Trollenzo! Guardian of the Dragon Fruit. To pick this fruit, you must first pass my test! Answer all three questions correctly, and the prize is yours.",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga (uh oh..  i didnt study...)",
+    choices: ["I got this."]
+  },
+  {
+    chosen: "I got this.",
+    from: "user",
+    text: "Dont worry guys. I got this.",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Enzo",
+    text: "Trollenzo: Lets see about that!",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Enzo",
+    text: "Trollenzo: First Question! What is the proper name of this fruit?",
+    choices: ["Hylocereus polyrhizus", "Jaquavius"]
+  },
+
+   {
+    chosen: "Hylocereus polyrhizus",
+    from: "user",
+    text: "Hylocereus polyrhizus",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Jaquavius",
+    from: "user",
+    text: "Jaquavius",
+    choices: ["Get Trollenzo-ed"]
+  },
+
+  {
+    chosen: "Continue",
+    from: "Enzo",
+    text: "Trollenzo: Clever.. What about this! How do you obtain an extract of its peels?",
+    choices: ["Maceration and soaking in 96% ethanol", "Kick it"]
+  },
+  {
+    chosen: "Maceration and soaking in 96% ethanol",
+    from: "user",
+    text: "Maceration and soaking in 96% ethanol",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Kick it",
+    from: "user",
+    text: "Kick it",
+    choices: ["Get Trollenzo-ed"]
+  },
+
+{
+    chosen: "Continue",
+    from: "Enzo",
+    text: "Trollenzo: Darn you're smart! Last question! Who is the creator of Epic: The Musical?",
+    choices: ["Rick Riordan", "Jorge Rivera-Herrans"]
+  },
+  {
+    chosen: "Jorge Rivera-Herrans",
+    from: "user",
+    text: "Jorge Rivera-Herrans",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Rick Riordan",
+    from: "user",
+    text: "Rick Riordan",
+    choices: ["Get Trollenzo-ed"]
+  },
+  {
+    chosen: "Continue",
+    from: "Enzo",
+    text: "Trollenzo: Darn! Fine it's yours!",
+    choices: ["Continue"]
+  },
+ {
+    chosen: "Continue",
+    from: "narrator",
+    text: "The time is nigh. Using ethanol and the esoteric techniques taught to you by Trollenzo, you produce an extract of the highest quality from the peels of the Dragon Fruit. Carefully, you store the extract in a micropipette.",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "When the time comes, you must thrust its tip into Siraris weak point and inject the fluid aww hell no im not finishing this sentence",
+    choices: ["Time to fight."]
+  },
+
+  {
+    chosen: "Time to fight.",
+    from: "user",
+    text: "Time to fight the Triclops.",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "narrator",
+    text: "You quietly enter the room as the Triclops sleep quietly within. It is a large, brightly lit room divided in two by a glass sliding door. Within the side from which you enter is an ornate arrangement of furniture, including a study desk, a cabinet housing several baubles and trinkets, and a bookshelf that houses several scientific almanacs.",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "narrator",
+    text: "In front of the sliding door is a large rectangular bed, upon which the beast lies on his side. The beast, too, is large… too large, towering 12 feet tall, lying on his side. The air is cold, but smells like floral freshener. Your party has made it, what do you do?",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Hans",
+    text: "Hans: Im ready, lets get his ass!",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Kasi",
+    text: "Kasi: Im getting yours after, hehe. Im kidding lets do this!",
+    choices: ["Continue"]
+  },
+  {
+    chosen: "Continue",
+    from: "Ichiro",
+    text: "Ichiro: Please so I can finally take a nap",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Sean",
+    text: "Sean: Waga(Yeah, but we must be careful to not wake him up from his)",
+    choices: ["Continue"]
+  },
+   {
+    chosen: "Continue",
+    from: "Rawyen",
+    text: "Rawyen: The decision is yours to make young warrior, what shall we do next",
+    choices: ["Continue"]
+  },
+  
+   {
+    chosen: "Continue",
+    from: "Renz",
+    text: "Renz: Choose the right option, Kim",
+    choices: ["Stab his eye.", "Keep Planning."]
+  },
+
+   {
+    chosen: "Stab his eye.",
+    from: "narrator",
+    text: "You hold your weapon high and stab down upon his middle eye! The beast jolts awake, and makes a loud roar. He grabs you and tosses you to the other side of the room. He stands up and scans the room, now a third blind. His gaze does not find you, with him being dazed by his hampered depth perception.",
+    choices: ["Continue"]
+  },
+
+  {
+    chosen: "Keep Planning.",
+    from: "narrator",
+    text: "You turn back and see if you can make more preparations. Suddenly, the beast yawns and slowly rubs his three oversized eyes awake. He turns to see you.",
+    choices: ["Get Siraris-ed"]
+  },
+    {
+    chosen: "Get Siraris-ed",
+    from: "Siraris",
+    text: "Siraris: Mister Hacermida and friends... I see you have made your way to my office… BEGONE.",
+    choices: ["Actually Die"]
+  },
+ 
+
+
+
+
+ {
+    chosen: "Actually Die",
+    from: "narrator",
+    text: "He waves his hand, and a beam of green light exits from his middle eye, hitting your party directly. You all disintegrate into ash, starting from your skin, then your fat, then your muscle, then your bones. The process is agonizingly slow, taking a total of 4 minutes to complete. The magic of the beam rendered your party immobile, yet conscious, for the entirety of the duration.",
+    choices: []
+  },
+   {
+    chosen: "Get Trollenzo-ed",
+    from: "Enzo",
+    text: "Trollenzo: HAH! SALA! WEH WEH!",
+    choices: [ "Continue" ],
+  },
+{
+    chosen: "Continue",
+    from: "narrator",
+    text: "Trollenzo collapses time and space around you, trapping you in an endlessly shifting quantum environment. The very gluons holding you apart melt into soup. You become one with the universe. Game Over.",
+    choices: []
+  },
  {
     chosen: "Get Shena-ed",
     from: "narrator",
