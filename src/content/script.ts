@@ -146,13 +146,13 @@ const script: message[] = [
     choices: ["Show yourself. I know youre watching me.", "Show yourself. I can see you."],
   },
    {
-    chosen: "I know you are watching.",
+    chosen: "Show yourself. I know youre watching me.",
     from: "user",
     text: "Show yourself. I know youre watching me.", 
     choices: ["Continue"],
   },
    {
-    chosen: "I can see you.",
+    chosen: "Show yourself. I can see you.",
     from: "user",
     text: "Show yourself. I can see you.", 
     choices: ["Continue"],
