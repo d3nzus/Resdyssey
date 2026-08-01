@@ -7,7 +7,11 @@ function MessageBubble({ mine, text, from }: { mine?: boolean; text?: string; fr
   const colorClass = messageFrom === 'kasi'
     ? 'bg-purple-600 text-white'
     : messageFrom === 'hans'
-      ? 'bg-green-600 text-white' 
+      ? 'bg-green-600 text-white'
+     : messageFrom === 'mamshena'
+      ? 'bg-blue-600 text-white' 
+    : messageFrom === 'siraris'
+      ? 'bg-red-800 text-white' 
     : messageFrom === 'narrator'
         ? 'bg-gray-800 text-white italic'
       : isMine
