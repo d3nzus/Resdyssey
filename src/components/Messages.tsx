@@ -1,11 +1,13 @@
 import React from 'react';
 import MessageBubble from './MessageBubble';
+import NPCMess from './NPCMess';
+import UserMess from './UserMess';
 
 function Messages() {
   return (
-    <div className="h-4/5 w-full mx-auto flex flex-col justify-center items-center bg-gray-600 text-white">
-      <MessageBubble />
-      <h2>Message 2</h2>
+    <div className="h-4/5 w-full wrap-anywhere mx-auto flex flex-row justify-center items-center bg-gray-600 text-white">
+        <NPCMess />
+        <UserMess />
     </div>
   );
 }
