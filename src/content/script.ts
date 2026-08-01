@@ -143,7 +143,7 @@ const script: message[] = [
     chosen: "Continue",
     from: "narrator",
     text: "The air outside is still and cold, no sound permeating the space. And yet you feel something in your stomach gnawing at you like someone is watching you.", 
-    choices: ["I know you are watching.", "I can see you."],
+    choices: ["Show yourself. I know youre watching me.", "Show yourself. I can see you."],
   },
    {
     chosen: "I know you are watching.",
