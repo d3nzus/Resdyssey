@@ -1019,7 +1019,7 @@ function notifyListeners() {
 function progressScript(choice?: string) {
   if (choice === "Ending.") {
     if (typeof window !== "undefined") {
-      window.location.assign("/ending");
+      window.location.hash = "#/ending";
     }
     return;
   }

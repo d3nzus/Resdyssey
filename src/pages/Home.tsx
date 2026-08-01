@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   const handleStartGame = () => {
-    window.location.href = '/game';
+    window.location.hash = "#/game";
   };
 
   return(
