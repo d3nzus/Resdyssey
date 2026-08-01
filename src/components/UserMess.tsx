@@ -13,7 +13,7 @@ function UserMess() {
     return unsubscribe;
   }, []);
   return (
-    <div className="h-4/5 w-1/2 mx-auto flex flex-col justify-end items-end bg-gray-600 text-white">
+    <div className="h-4/5 w-1/2 mx-auto flex flex-col justify-end items-end gap-2 bg-gray-600 text-white">
       {visibleMessages.map((entry, index) => (
         <MessageBubble mine={entry.from === 'user'} text={entry.text} />
       ))}

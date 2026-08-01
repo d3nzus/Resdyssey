@@ -6,7 +6,7 @@ function ChoiceButton({ text }: { text: string }) {
     <button
       type="button"
       onClick={() => progressScript(text)}
-      className="h-1/5 w-fit mx-auto flex flex-row justify-center items-center bg-gray-800 text-white px-5 py-5 rounded text-xl"
+      className="h-fit w-fit mx-auto flex flex-row justify-center items-center bg-gray-800 text-white px-5 py-5 rounded text-xl"
     >
       {text}
     </button>
