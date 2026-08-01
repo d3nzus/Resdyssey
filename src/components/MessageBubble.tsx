@@ -30,7 +30,7 @@ function MessageBubble({ mine, text, from }: { mine?: boolean; text?: string; fr
 
   return (
     <div className={`h-fit w-fit mx-0.5 flex flex-col relative justify-center items-center rounded-lg p-2 ${colorClass}`}>
-      <h6>{text}</h6>
+      <h6 className="text-xs">{text}</h6>
     </div>
   );
 }
